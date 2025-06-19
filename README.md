@@ -1,5 +1,17 @@
 # PRACTICUM-EXAM
 Music Playlist Manager 
+A Kotlin-based Android app for managing a personal music playlist with the following features:
+ Add songs (title, artist, rating, comments)
+✅View playlist with all saved songs
+ Calculate average song rating
+ Clean exit with confirmation
+
+  ## Installation
+Clone the repo
+Open in Android Studio
+
+Run on emulator or device (Build → Run 'app'
+
 ## Features
 Add up to 4 songs with details:
   - Song title
@@ -149,7 +161,79 @@ No data loss during navigation
 - Calculates and shows average rating
 - Formats playlist display
 - This is the Detailed screen running
-- 
+- This is the detailed view screen running
+
+  ## Source Codes
+  ![mainscreen code](https://github.com/user-attachments/assets/455800c9-c4ea-46c3-a949-a8c6038f4e89)
+ 
+  ### Core Responsibilities
+Handles user input for song details
+Manages data storage in memory
+Controls navigation to playlist screen
+Uses parallel arrays for data organization
+count tracks number of songs added (0-4)
+Dynamic dialog creation with custom layout
+Input validation before storing data
+Ensures required fields are provided
+Validates rating range (1-5 stars)
+Intent-based navigation with data transfer
+Clean app exit with user confirmation
+
+  ![detailed view screen code](https://github.com/user-attachments/assets/417680cc-f92c-4795-8e99-a354b5163092)
+  ### Core Responsibilities
+Displays formatted playlist
+Calculates average rating
+Handles back navigation
+Safely extracts data from MainActivity
+Uses null-coalescing for empty cases
+StringBuilder for efficient text construction
+Conditional comment display
+Clear visual separation between songs
+ Layout Files
+activity_main.xml
+Contains three buttons:
+enterButton (Add songs)
+clickButton (View playlist)
+exitAppButton (Close app)
+activity_main2.xml
+ScrollView wrapper for long lists
+TextView for playlist display
+Back button for navigation
+ dialog_add_song.xml
+Text fields for:
+Song title (etSongTitle)
+Artist name (etArtistName)
+Rating (etRating)
+Comments (etComment)
+
+
+  ## Technical Details
+ Minimum Requirements
+Android 5.0+ (API 21)
+
+Kotlin 1.6+
+
+ Dependencies
+AndroidX AppCompat (Standard Android support)
+
+Material Design Components (UI elements)
+
+ Known Limitations
+Data not saved between app launches
+
+No edit/delete functionality
+
+Fixed 4-song limit
+
+ ## License
+This project is licensed under MIT License.
+
+## 
+
+  
+
+
+  
   
 
   
