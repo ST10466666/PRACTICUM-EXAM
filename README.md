@@ -2,7 +2,7 @@
 Music Playlist Manager 
 A Kotlin-based Android app for managing a personal music playlist with the following features:
  Add songs (title, artist, rating, comments)
-✅View playlist with all saved songs
+View playlist with all saved songs
  Calculate average song rating
  Clean exit with confirmation
 
