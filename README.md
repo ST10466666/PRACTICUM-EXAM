@@ -138,10 +138,12 @@ No data loss during navigation
 
 ![main screen running](https://github.com/user-attachments/assets/08a4ae51-64df-40bb-8b94-a026f2a67332)
 
-**Enter Button**: Add new songs
-- **Click Button**: View playlist
-- **Exit Button**: Close app
+**Add playlist Button**: Add new songs
+- **Next page Button**: View playlist
+- **ExitApp Button**: Close app
 - This is the mai screen running
+
+  
   ![detailed screen running](https://github.com/user-attachments/assets/9fb08014-7e5a-4d07-b88d-0533c4c64ec5)
   - Displays all saved songs
 - Calculates and shows average rating
