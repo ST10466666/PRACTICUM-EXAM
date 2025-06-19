@@ -1,2 +1,2 @@
 # PRACTICUM-EXAM
-PRACTICUM EXAM
+Music Playlist Manager 
