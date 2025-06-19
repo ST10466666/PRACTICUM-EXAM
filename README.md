@@ -65,6 +65,7 @@ Can return and keep adding songs until limit reached
 
 Taps Exit Button to quit when done
 
+## Detailed View Screen
 ![Detailed view screen](https://github.com/user-attachments/assets/14bfcf1b-baf3-4266-9d44-eebbca772133)
 
  ### Core Purpose
